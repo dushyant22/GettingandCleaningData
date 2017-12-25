@@ -1,0 +1,27 @@
+---
+title: "Readme"
+output: html_document
+---
+
+## Getting and Cleaning Data - Coursera Project -Week 4 
+
+This repository hosts the R code and documentation files for the Data Science's track course "Getting and Cleaning data", available in coursera.
+
+The dataset being used is: <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones> : Human Activity Recognition Using Smartphones.
+
+___
+Transaction Details requires the folllowing activities 
+
+1. Merges the training and the test sets to create one data set.
+[The data sets have been merged through cbind and rbind operations]
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+[The Topics of the columns were filtered only for mean and Standard values]
+3. Uses descriptive activity names to name the activities in the data set 
+[The activity names were taken from the datasets and replaced for Activity Id column.]
+4. Appropriately labels the data set with descriptive variable names.
+[The labels were replaced for the Column names from the labels dataset. ]
+
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+[The data set has been exported to tidy.txt.]
+
+___

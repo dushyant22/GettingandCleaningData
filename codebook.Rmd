@@ -1,0 +1,64 @@
+---
+title: "CodeBook for Getting and Cleaning Data."
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+This text describes the data, and its transformational analysis. 
+The Operations on the data are mentioned in the file Run_Analysis.R. 
+
+The output is saved in the file tidy.txt. 
+
+---
+
+####Training Datasets 
+
+X_train.txt 
+
+y_train.txt 
+
+subject_train.txt 
+
+---
+
+####Test Data
+X_test.txt 
+
+y_test.txt 
+
+subject_test.txt 
+
+---
+
+####Metadata for activities 
+activity_labels.txt  
+
+---
+
+####Names for features 
+features.txt 
+
+---
+
+####The Raw Data 
+The raw data does not contain any labels, only recorded values. 
+
+---
+
+####The Code Book 
+The included file codebook.md explains the transactions performed for tidying up the data of recordings from Training and Test dataset
+
+---
+
+Subject column is numbered sequentially from 1 to 30. Activity column has 6 types as listed below.
+
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
